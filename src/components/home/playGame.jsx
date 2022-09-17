@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 import playGame from "../../assets/playGame.jpg"
 
 function PlayGame() {
@@ -9,7 +10,7 @@ function PlayGame() {
                     <h1>Which animal are you?</h1>
                     <p>
                         Play a game where a random animal is given to you! Join your friends and see which animal you are.<br />
-                        <button type="button">Play Game</button>
+                        <Link to="/play-game"><button type="button">Play Game</button></Link>
                     </p>
                     
                 </div>

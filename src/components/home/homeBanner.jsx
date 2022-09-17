@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 import mainBanner from "../../assets/mainBanner.jpg";
 
 function HomeBanner() {
@@ -10,7 +11,7 @@ function HomeBanner() {
                     <p>
                         Our mission is to save endangered wildlife. <br />
                     We are a conservation zoo that shelters endangered animals and researchs how to support wildlife across the globe.<br />
-                        <button>About Us</button>
+                        <Link to ="*"><button>About Us</button></Link>
                     </p>
                 </div>
             </section>

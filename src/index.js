@@ -7,6 +7,7 @@ import Navbar from './components/navbar';
 import HomePage from './routes/home.page';
 import PlayGamePage from './routes/playingGame.page';
 import AnimalCardPage from './routes/animalCard.page';
+import PageNotFound from './components/pageNotFound';
 
 const router = createBrowserRouter([
   {
@@ -24,8 +25,12 @@ const router = createBrowserRouter([
       {
         path: "/our-animals",
         element: <AnimalCardPage />,
-      }
+      },
     ],
+  },
+  {
+    path:"*",
+    element: <PageNotFound />
   },
 ]);
 

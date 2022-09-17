@@ -10,7 +10,7 @@ function OurAnimals() {
                     <h1>Our Animals</h1>
                     <p>
                         Interested in knowing more about our animals? Visit our animal information page to get to know about some of the fauna in our shelter.<br />
-                        <button type="button"><Link to="/our-animals">Learn More</Link></button>
+                        <Link to="/our-animals"><button type="button">Learn More</button></Link>
                     </p>
                     
                 </div>
